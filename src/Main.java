@@ -21,6 +21,8 @@ class Main {
     private void validateTimestamp(int timestamp) {
         if (timestamp < latestTimestamp) {
             throw new IllegalArgumentException("Timestamps must be non-decreasing.");
+//        throw exception when the conditions are met
+
         }
     }
 
